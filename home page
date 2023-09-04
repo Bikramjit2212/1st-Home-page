@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="image/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <header>
+    <div class="banner"> <img src="image/tony-stark.gif" alt="" srcset=""></div>
+    <h1 class="tony">Stark Industries</h1>
+  </header>
+
+  <nav>
+    <a class="menu-btn" href="#">Home</a>
+    <a class="menu-btn" href="#">Armours</a>
+    <a class="menu-btn" href="#">JARVIS</a>
+    <a class="menu-btn" href="#">AI</a>
+    <a class="menu-btn" href="#">Buisness</a>
+    <a class="menu-btn flex-align-right" href="#">login/signup</a>    
+  </nav>    
+  
+  <main>
+    <section>
+        <h2> <span>Workings</span> </h2>
+<!-- Flickity HTML init -->
+<div class="carousel"
+data-flickity='{ "wrapAround": true }'>
+<div class="carousel-cell"><video src="video/video.mp4"  poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+<div class="carousel-cell"><video src="video/video.mp4"  poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+<div class="carousel-cell"><video src="video/video.mp4"  poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+<div class="carousel-cell"><video src="video/video.mp4"  poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+<div class="carousel-cell"><video src="video/video.mp4"  poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+<div class="carousel-cell"><video src="video/video.mp4" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video></div>
+</div>
+     
+    </section>
+    <section>
+        <h2> <span>YouTube</span> </h2>
+        <!-- Flickity HTML init -->
+<div class="carousel"data-flickity='{ "wrapAround": true }'>
+<div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/WNu6fRo_7fg" title="Iron Man - Making the Mark II Armor - First Test Scene - Iron Man (2008) Movie CLIP HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/WNu6fRo_7fg" title="Iron Man - Making the Mark II Armor - First Test Scene - Iron Man (2008) Movie CLIP HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/WNu6fRo_7fg" title="Iron Man - Making the Mark II Armor - First Test Scene - Iron Man (2008) Movie CLIP HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+</div>
+        
+        
+        
+    </section>
+    <section>
+        <h2> <span>Blue Prints</span> </h2>
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell" href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="60%" ></div>
+        <div class="carousel-cell" href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="60%" ></div>
+        <div class="carousel-cell" href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="60%" ></a></div>
+        
+        
+        
+    </section>
+    <section>
+        <h2> <span>About Ironman</span></h2>
+        <img class="profile_img" src="image/SuperheroesWallpapersHD4k23.jpg" alt="Iron man" width="60%">
+        <h3 class="profile_name">Iron Man / Tony Stark</h3>
+
+        <div class="sm-handle">
+        <a class="yt-pl" href="https://youtu.be/96AO6L9qp2U" target="_blank"> <i class="fa fa-youtube-play yt-pl" aria-hidden="true"></i>YouTube</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <a class="yt-pl" href="https://youtu.be/Ddk9ci6geSs" target="_blank"> <i class="fa fa-youtube-play yt-pl" aria-hidden="true"></i>YouTube</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <a class="yt-pl" href="https://youtu.be/tso8iUBeuXM" target="_blank"> <i class="fa fa-youtube-play yt-pl" aria-hidden="true"></i>YouTube</a> 
+        </div>
+
+        <div class="about_us">
+        <h4 class="about_title">A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward "Tony" Stark</h4>
+        <h5 class="about_content">Tony Stark began the MCU with Iron Man and went on to be integral to the main storyline. He was a founding member of the Avengers and had one of that series' most significant character arcs. He made appearances outside his own trilogy and the Avengers movies, appearing in Captain America and Spider-Man.</h5>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Refund</a>
+    <a href="#" class="flex-align-right">&copy;2022 | Bikramjit Roy</a>
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
